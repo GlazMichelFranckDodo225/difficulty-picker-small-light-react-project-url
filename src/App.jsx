@@ -1,9 +1,11 @@
-import DisplayDifficulty from "./components/DisplayDifficulty/DisplayDifficulty";
+// import DisplayDifficulty from "./components/DisplayDifficulty/DisplayDifficulty";
+import { MenuListItem } from "./components/MenuListItem/MenuListItem";
 
 function App() {
   return (
     <div>
-      <DisplayDifficulty difficulty="Low" />
+      {/* <DisplayDifficulty difficulty="Low" /> */}
+      <MenuListItem difficulty="Low"/>
     </div>
   );
 }
